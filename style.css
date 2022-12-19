@@ -1,0 +1,103 @@
+div.background{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    width: 1200px;
+    background-color: blanchedalmond;
+    color: #a770ef;
+    font-weight: bold;
+}
+
+p.histoire{
+    font-size: 30px;
+    text-align: left;
+}
+
+p.episode{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+body{
+    background-color: pink;
+}
+
+img{
+    width: 1200px;
+}
+
+iframe{
+    border: 10px solid;
+    border-image: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+    border-image-slice: 1;
+}
+
+div.personnage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    
+    border: 8px solid;
+    border-image: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+    border-image-slice: 1;
+}
+
+div.personnage img {
+    width: 100%;
+    height: auto;
+}
+
+div.haut {
+    padding: 5px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+div.bas {
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a770ef;
+  }
+  
+  li.right {
+    float: left;
+    border-right: 3px solid blanchedalmond;
+  }
+
+  li.left{
+    border-left: 3px solid blanchedalmond;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: blanchedalmond;
+    color: #a770ef;
+    border-right: #a770ef;
+  }
+
+  .logo-image img{
+    float: right;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: 2px;
+}
